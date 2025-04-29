@@ -18,7 +18,6 @@ const addItem = async (req, res) => {
   const highlights = req.body.highlights.split(",");
   const size = req.body.size.split(",");
 
-  /* The request.body must have all these values */
   const item = {
     name: req.body.name,
     category: req.body.category,
